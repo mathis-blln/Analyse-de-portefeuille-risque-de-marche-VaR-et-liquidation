@@ -1,9 +1,5 @@
 # Analyse de portefeuille : risque de marché, VaR et liquidation
 
-Ce projet Python regroupe quatre séances d’analyse autour du risque de marché et de la liquidation d’actifs. L’objectif est d’étudier les comportements de portefeuilles en environnement de marché réel ou simulé, à travers des mesures statistiques, des comparaisons benchmark, et des stratégies d’exécution.
-
----
-
 ## Organisation du projet
 
 ###  Séance 1 — Risque de marché : portefeuille CAC40 (indépendante)
@@ -39,6 +35,8 @@ Nous faisons l'hypothèse que chaque acteur ne peut dépasser 20% du Average Dai
   Chaque jour, nous liquidons le minimum entre les quantités restantes et la quantité liquidable en 1 jour.
 
 - Pour le profil sans déformation, nous adoptons la stratégie; afin de ne pas altérer la composition du portefeuille, nous devons liquider à la vitesse de l'actif le moins liquide du portefeuille.
+
+--- 
 
 
 ### Séance 3&4 : Risque de marché : pricing de bonds (clean/dirty price), puis calculs de VaR
